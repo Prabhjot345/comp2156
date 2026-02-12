@@ -1,24 +1,15 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Warning: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Prabhjot345/comp2156.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Prabhjot345/comp2156/issues"
-  },
-  "homepage": "https://github.com/Prabhjot345/comp2156#readme",
+  "private": true,
   "dependencies": {
-    "react-scripts": "^5.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
+
