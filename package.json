@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Prabhjot345/comp2156/issues"
   },
-  "homepage": "https://github.com/Prabhjot345/comp2156#readme"
+  "homepage": "https://github.com/Prabhjot345/comp2156#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
