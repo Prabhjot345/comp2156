@@ -1,7 +1,9 @@
-name: Build Check
+name: CI
 
 on:
   push:
+    branches: [ main, dep-inclusions ]
+  pull_request:
     branches: [ main ]
 
 jobs:
@@ -16,10 +18,5 @@ jobs:
         with:
           node-version: 18
 
-      - name: Fix permissions
-        run: chmod +x node_modules/.bin/react-scripts || true
-
       - name: Install dependencies
         run: npm install
-
-      
