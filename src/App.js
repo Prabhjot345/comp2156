@@ -12,8 +12,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Studen ID: 101563786</h1>
-      <h1>Studen ID:Prabhjot</h1>
+      <h1>Student ID: 101563786</h1>
+      <h1>Student ID:Prabhjot</h1>
       <h1>Student Information System</h1>
       <h5>Powered By: moxDroid Labs Inc. || DevOps</h5>
       <StudentForm addStudent={addStudent} />
